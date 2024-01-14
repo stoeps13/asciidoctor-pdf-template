@@ -15,6 +15,15 @@ base:
   line_height_length: 14
   line_height: $base_line_height_length / $base_font-size
 vertical-spacing: $base_line_height_length
+admonition:
+  border-radius: 4
+  background-color: #cccccc
+  padding: [8, 8, 8, 8]
+quote:
+  border-color: #E6E8FA
+  font-color: #333333
+  border-left-width: 5
+  padding: [3, 0, 3, 20]
 heading:
   font-color: #1d4e89
   # font-family: Clear Sans
@@ -25,6 +34,7 @@ heading:
   margin-top: $vertical-spacing / 1.2
 caption:
   font-style: bold
+  font-size: 10
   margin-inside: 1mm
   margin-outside: 3mm
 code:
